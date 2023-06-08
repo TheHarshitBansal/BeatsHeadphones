@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0E0E10;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    zoom: 0.5;
+}
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin-right: 450px;
+    margin-left: 550px;
+}
+nav ul{
+    display: flex;
+    gap: 80px;
+    margin-right: 90px;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+button{
+    font-size: 30px;
+    cursor: pointer;
+    background: #1e1e21;
+    border-radius: 8px;
+    font-weight: 400;
+    padding: 15px 75px;
+}
+.logo img{
+    align-items: center;
+    top: 80px;
+    height: 60px;
+    margin-left: 375px;
+}
+.mainimage img{
+    margin-left: 500px;
+    position: relative;
+    bottom: 450px;
+    width: 20%;
+}
+main{
+    position: relative;
+    left: 1250px;
+    bottom: 1050px;
+}
+.onear img{
+    width: 650px;
+}
+main h1{
+    font-size: 90px;
+    position: relative;
+    right: 90px;
+    margin-bottom: 40px;
+}
+main h4{
+    font-size: 35px;
+    position: relative;
+    right: 90px;
+    font-weight: 550;
+    margin-bottom: 50px;
+}
+main p{
+    font-size: 26px;
+    width: 650px;
+    position: relative;
+    right: 90px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+.mainbag{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: #1e1e21;
+    border-radius: 18px;
+    width: 490px;
+    padding: 80x; 
+    position: relative;
+    right: 90px;   
+    cursor: pointer;
+    user-select: none;
+}
+.mainbag p{
+    background: #1e1e21;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    width: fit-content;
+    font-size: 30px;
+    font-weight: 400;
+}
+.mainbag img{
+    position: relative;
+    left: 35px;
+    background: #1e1e21;
+    width: 40px;
+}
+.mainbag span{
+    background: #1e1e21;
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+    left: 30px; 
+}
+.social{
+    display: flex;
+    position: relative;
+    align-items: center;
+    gap: 200px;
+    bottom: 800px;
+    margin-left: 450px;    
+}
+.social img{
+    width: 250px;
+    cursor: pointer;
+}
+.specs{
+    position: relative;
+    top: -580px;
+    left: 1020px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+img[alt="specsLogo"]{
+    width:450px;
+}
+.specstext{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+    position: relative;
+    right: 300px;
+}
+img[alt="Bluetooth"]{
+    width: 28px;
+    margin-bottom: 10px;
+}
+.bluetooth p{
+line-height: 35px;
+}
+.battery{
+    position: relative;
+    left: -70px;
+}
+img[alt="Battery"]{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.battery p{
+line-height: 35px;
+}
+.load{
+    position: relative;
+    left: -70px;
+}
+img[alt="Charger"]{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.load p{
+line-height: 35px;
+}
+img[alt="Microphone"]{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.microphone p{
+line-height: 35px;
+}
+.specsheading{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.details{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.microphone .details{
+    width: 200px;
+}
+img[alt="specsImage"]{
+    position: relative;
+    top: -700px;
+    left: 150px;
+    width: 580px;
+}
+.case{
+    position: relative;
+    top: -1050px;
+    left: 1000px;
+}
+img[alt="caseLogo"]{
+    width: 450px;
+    margin-bottom: 150px;
+}
+.casepage{
+    display: flex;
+    position: relative;
+    left: -250px;
+}
+img[alt="caseImage"]{
+    width: 500px;
+}
+.casepage .p{
+    padding-left: 200px;
+    width: 625px;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    line-height: 60px;
+    font-weight: 350;
+}
+.moreinfo{
+    height: fit-content;
+    position: relative;
+    top: 500px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    right: 420px;
+    cursor: pointer;
+    background: #1e1e21;
+    padding: 25px 60px;
+    border-radius: 15px;
+    user-select: none;
+}
+img[alt="moreinfo"]{
+    height: 40px;
+    background: transparent;
+    position: relative;
+    right: 15px;
+}
+.moreinfo p{
+    font-size: 30px;
+    background: transparent;
+    
+}
+.buynow{
+    position: relative;
+    top: -800px;
+    left: 450px;
+    background: #1e1e21;
+    width: 1200px;
+    align-items: center;
+    height: 450px;
+    padding: 300px 800px;
+    border-radius: 20px;
+}
+.buynow h2{
+    font-size: 40px;
+    width: 450px;
+    background: none;
+    margin-bottom: 20px;
+    position: relative;
+    top: -150px;
+    right: 600px;
+    font-weight: 600;
+}
+.buynow p{
+font-size: 30px;
+background: none;
+font-weight: 150;
+position: relative;
+margin-bottom: 20px;
+top: -140px;
+right: 600px;
+width: 500px;
+color: rgb(200, 200, 200);
+}
+img[alt="Image"]{
+    background: none;
+    position: relative;
+    left: px;
+    bottom: 500px;
+    width: 600px;
+    align-items: center;
+}
+.buy{
+    background: black;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: -100px;
+    right: 600px;
+    width: 250px;
+    padding: 15px 25px;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+.buy img{
+    background: none;
+    position: relative;
+    left: 10px;
+    width: 35px;
+    height: 35px;
+    bottom: 3px;
+}
+.buy p{
+    top: 10px; 
+    left: 20px;
+    font-weight: 400;
+    font-size: 28px;
+}
+.style{
+    position: relative;
+    bottom: 600px;
+    left: 1000px;
+    display: flex;
+    gap: 150px;
+}
+img[alt="ChooseYourStyle"]{
+    height: 200px;
+}
+.product-card{
+    position: relative;
+    top: 400px;
+    right: 1150px;
+    background:#1e1e21;
+    height: 350px;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.product-info{
+    background: none;
+    position: relative;
+    top: 50px;
+    width: 400px;
+}
+.product-info p{
+    background: none;
+    position: relative;
+    bottom: 180px;
+    font-size: 30px;
+    left: 30px;
+    font-family: 500;
+}
+.product-info div{
+    background: none;
+}
+.product-info span{
+    background: none;
+    position: relative;
+    bottom: 180px;
+    left: 30px;
+    font-size: 30px;
+    color: rgb(200, 200, 200);
+}
+img[alt="Headphones"]{
+    background: transparent;
+    width: 275px;
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+}
+.product-card img[alt="shoppingBag"]{
+    position: relative;
+    background: black;
+    left: 290px;
+    bottom: 260px;
+    width: 70px;
+    padding: 5mm;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#blue{
+    position: relative;
+}
+.class{
+    display: flex;
+    gap:120px;
+    flex-wrap: wrap;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+footer img[alt="Logo"]{
+    width: 50px;
+    height: 50px;
+}
+img[alt="upArrow"]{
+    height: 50px;
+}
+.head{
+    font-size:38px ;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+footer ul{
+    position: relative;
+    right: 80px;
+}
+footer a{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(200, 200, 200);
+}
+footer li{
+    margin-bottom: 10px;
+}
+.input{
+    display: flex;
+    scale: 2.3;
+}
+.subscribe{
+    display: flex;
+    border-radius: 10px;
+}
+img[alt="upArrow"]{
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+    scale: 1.3
+}
+.socialmedia{
+    position: relative;
+    top: 120px;
+    scale: 2.5;
+    display: flex;
+    gap: 10px;
+    left: 50px;
+}
+.socialmedia img{
+    cursor: pointer;
+}
+.footer-subscription{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .footer-subscription div:first-child{
+    background: #181A1B;
+  border-radius: 8px;
+  padding: 5px 10px;
+  display: flex;
+  }
+  
+  .footer-subscription div:first-child input{
+    border: none;
+    background-color: transparent;
+  }
+  .subscribe{
+    background: #0A0A0B;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .subscribe img{
+    scale: 0.8;
+  }
+  
+  .subscribe p{
+    font-size: 12px;
+  }
+  
+  .footer-subscription div:last-child img{
+    margin-right: 10px;
+    scale: 0.8;
+  }
